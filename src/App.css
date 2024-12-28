@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  height: 100%;
+}
+input {
+  padding: 4px 0;
+  font-size: large;
+  text-align: center;
+  margin: auto;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px;
+}
+.container {
+  display: grid;
+  margin: auto;
+  height: auto;
+}
+
+.square {
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc; 
+  padding: 40px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
